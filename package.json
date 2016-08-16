@@ -4,7 +4,8 @@
   "description": "Create a RxStream from pages generator",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "prepublish": "grunt build && grunt bump"
   },
   "repository": {
     "type": "git",
