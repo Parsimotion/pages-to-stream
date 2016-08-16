@@ -1,0 +1,33 @@
+{
+  "name": "pages-to-stream",
+  "version": "1.0.0",
+  "description": "Create a RxStream from pages generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parsimotion/pages-to-stream.git"
+  },
+  "dependencies": {
+    "rx": "4.1.0"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.1",
+    "grunt": "1.0.1",
+    "grunt-bump": "0.8.0",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-coffee": "1.0.0",
+    "grunt-mocha-test": "0.12.7",
+    "lodash": "^4.15.0",
+    "mocha": "3.0.2",
+    "should": "^11.1.0"
+  },
+  "author": "Parsimotion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Parsimotion/pages-to-stream/issues"
+  },
+  "homepage": "https://github.com/Parsimotion/pages-to-stream#readme"
+}
