@@ -1,5 +1,6 @@
 # pages-to-stream
 
+[![NPM version](https://badge.fury.io/js/pages-to-stream.png)](http://badge.fury.io/js/pages-to-stream)
 
 Create a new RxStream from pages generator.
 
