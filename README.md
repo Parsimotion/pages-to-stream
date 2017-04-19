@@ -5,7 +5,7 @@
 Create a new RxStream from pages generator.
 
 ```coffee
-# action:: pageToken -> Promise({items, nextPageToken})
+# action:: pageToken -> Promise({items, nextToken})
 action = (page = null) -> getPage(page).then( (items) -> {items, nextToken} )
 
 aRxStream = new FromPages(action).stream()
